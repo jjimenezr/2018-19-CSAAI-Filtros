@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>filtros</title>
+    <link rel="stylesheet" href="filtros.css">
+    <script src="filtros.js"></script>
+  </head>
+  <body onload="main();">
+    <p>dragones originales</p>
+    <img src="fairy_dragons.jpg" id="dragons">
+    <p>dragones shiny(cambiacolor)</p>
+    <canvas id="display"></canvas>
+    <p>añadele o quitale fuego(rojo)</p>
+    <input type="range" id="redlizador" min="0" max="255" value="255"/>
+    <p id="redvalue">00</p>
+    <p>añadele o quitale hielo(azul)</p>
+    <input type="range" id="bluelizador" min="0" max="255" value="255"/>
+    <p id="bluevalue">00</p>
+    <p>añadele o quitale naturaleza(verde)</p>
+    <input type="range" id="greenlizador" min="0" max="255" value="255"/>
+    <p id="greenvalue">00</p>
+    <br>
+    <button type="button" name="button" id="blackwhite">black & white</button>
+    <button type="button" name="button" id="colors">colores</button>
+  </body>
+</html>
